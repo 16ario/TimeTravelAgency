@@ -214,7 +214,7 @@ timetravel-agency/
 ### 1. Cloner le projet
 
 ```bash
-git clone https://github.com/VOTRE_COMPTE/timetravel-agency.git
+git clone https://github.com/16ario/TimeTravelAgency.git
 cd timetravel-agency
 ```
 
@@ -508,7 +508,7 @@ Health Check Path :
 URL du projet déployé :
 
 ```txt
-À compléter avec l’URL Render du projet
+https://timetravelagency-d4bf.onrender.com/
 ```
 
 ---
