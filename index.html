@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TimeTravel Agency — Voyages par trou de ver</title>
+  </head>
+
+  <body>
+    <div id="app">
+      <!-- HEADER -->
+      <header class="header">
+        <div class="logo">TimeTravel Agency</div>
+
+        <nav class="nav">
+          <a href="#accueil">Accueil</a>
+          <a href="#presentation">Agence</a>
+          <a href="#destinations">Destinations</a>
+          <a href="#upcoming">Prochaines fenêtres</a>
+          <a href="#recommendation">Conseil IA</a>
+          <a href="#chatbot">Agent IA</a>
+          <a href="#reservation">Réservation</a>
+          <a href="#faq">FAQ</a>
+        </nav>
+      </header>
+
+      <main>
+        <!-- HERO -->
+        <section id="accueil" class="hero">
+          <video class="hero-video" autoplay muted loop playsinline>
+            <source src="/assets/videos/hero-background.mp4" type="video/mp4" />
+          </video>
+
+          <div class="hero-overlay"></div>
+
+          <div class="hero-content">
+            <p class="subtitle">Entreprise de voyage par tunnel spatio-temporel</p>
+
+            <h1>Traversez les siècles grâce aux trous de ver.</h1>
+
+            <p class="hero-text">
+              TimeTravel Agency ouvre des passages contrôlés vers les grandes époques de l’Histoire.
+              Choisissez votre période, préparez votre transfert et franchissez un tunnel spatio-temporel
+              vers Paris 1889, le Crétacé ou Florence en 1504.
+            </p>
+
+            <a href="#destinations" class="btn">Explorer les époques d’arrivée</a>
+          </div>
+        </section>
+
+        <!-- PRESENTATION -->
+<section id="presentation" class="section concept-section">
+  <div class="concept-card">
+    <div class="concept-media">
+      <video class="concept-video" autoplay muted loop playsinline>
+        <source src="/assets/videos/second-background.mp4" type="video/mp4" />
+      </video>
+    </div>
+
+    <div class="concept-content">
+      <p class="section-label">Notre concept</p>
+
+      <h2>Une entreprise spécialisée dans les passages temporels</h2>
+
+      <p>
+        TimeTravel Agency n’est pas une agence de voyage classique. Elle utilise des tunnels
+        spatio-temporels stabilisés pour transporter ses clients vers des époques précises.
+        Chaque passage est ouvert grâce à un trou de ver contrôlé, surveillé par nos équipes
+        de navigation temporelle.
+      </p>
+
+      <p>
+        Avant chaque départ, l’agence calcule la fenêtre temporelle, stabilise le portail,
+        analyse les risques historiques et prépare le protocole de retour.
+      </p>
+    </div>
+  </div>
+</section>
+
+        <!-- DESTINATIONS -->
+        <section id="destinations" class="section destinations-section">
+          <p class="section-label">Époques d’arrivée</p>
+
+          <h2>Choisissez votre tunnel spatio-temporel</h2>
+
+          <p>
+            Chaque destination correspond à une fenêtre temporelle précise. Sélectionnez une époque
+            pour consulter les détails du transfert, les activités proposées et le niveau de risque.
+          </p>
+
+          <div class="cards-container">
+            <article class="card">
+              <div class="card-image">
+                <img src="/assets/images/paris-1889.jpg" alt="Paris en 1889" />
+              </div>
+
+              <div class="card-content">
+                <span class="tag">Fenêtre stable</span>
+                <h3>Paris 1889</h3>
+
+                <p>
+                  Traversez le tunnel vers la Belle Époque et découvrez Paris au moment de
+                  l’Exposition universelle.
+                </p>
+
+                <button class="card-btn" data-destination="paris" type="button">
+                  Voir les détails
+                </button>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="card-image">
+                <img src="/assets/images/cretace.jpg" alt="Paysage du Crétacé avec dinosaures" />
+              </div>
+
+              <div class="card-content">
+                <span class="tag">Zone à haut risque</span>
+                <h3>Le Crétacé</h3>
+
+                <p>
+                  Franchissez un passage vers un monde préhistorique peuplé de dinosaures
+                  et de paysages primitifs.
+                </p>
+
+                <button class="card-btn" data-destination="cretace" type="button">
+                  Voir les détails
+                </button>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="card-image">
+                <img src="/assets/images/florence-1504.jpg" alt="Florence en 1504" />
+              </div>
+
+              <div class="card-content">
+                <span class="tag">Culture & art</span>
+                <h3>Florence 1504</h3>
+
+                <p>
+                  Rejoignez la Renaissance italienne et explorez Florence au cœur de son âge d’or artistique.
+                </p>
+
+                <button class="card-btn" data-destination="florence" type="button">
+                  Voir les détails
+                </button>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <!-- DETAILS -->
+        <section id="details" class="section details-section">
+          <p class="section-label">Analyse de transfert</p>
+
+          <h2>Détails de la destination</h2>
+
+          <div id="destination-details" class="details-box">
+            <p>
+              Sélectionnez une destination pour afficher les informations du tunnel spatio-temporel.
+            </p>
+          </div>
+        </section>
+
+        <!-- PROCHAINES FENÊTRES TEMPORELLES -->
+        <section id="upcoming" class="section upcoming-section">
+          <p class="section-label">Bientôt disponible</p>
+
+          <h2>Prochaines fenêtres temporelles</h2>
+
+          <p>
+            Nos équipes de navigation temporelle travaillent déjà à l’ouverture de nouvelles
+            fenêtres spatio-temporelles. Ces destinations sont encore en phase de stabilisation,
+            mais elles pourraient bientôt rejoindre le catalogue officiel de TimeTravel Agency.
+          </p>
+
+          <div class="upcoming-grid">
+            <article class="upcoming-card">
+              <div class="upcoming-image">
+                <img src="/assets/images/upcoming/londres-1888.jpg" alt="Londres en 1888" />
+              </div>
+
+              <div class="upcoming-content">
+                <span class="upcoming-tag">Stabilisation en cours</span>
+                <h3>Londres 1888</h3>
+                <p class="upcoming-period">Époque victorienne</p>
+                <p>
+                  Une traversée vers une capitale brumeuse, éclairée au gaz, entre fiacres,
+                  ruelles sombres et ambiance mystérieuse.
+                </p>
+              </div>
+            </article>
+
+            <article class="upcoming-card">
+              <div class="upcoming-image">
+                <img src="/assets/images/upcoming/gizeh-2500bc.jpg" alt="Gizeh dans l’Égypte antique" />
+              </div>
+
+              <div class="upcoming-content">
+                <span class="upcoming-tag">Fenêtre antique</span>
+                <h3>Gizeh, 2500 av. J.-C.</h3>
+                <p class="upcoming-period">Égypte antique</p>
+                <p>
+                  Une immersion monumentale au bord du Nil, à l’époque des grands chantiers
+                  funéraires et des pyramides.
+                </p>
+              </div>
+            </article>
+
+            <article class="upcoming-card">
+              <div class="upcoming-image">
+                <img src="/assets/images/upcoming/tokyo-2150.jpg" alt="Tokyo en 2150" />
+              </div>
+
+              <div class="upcoming-content">
+                <span class="upcoming-tag">Futur expérimental</span>
+                <h3>Tokyo 2150</h3>
+                <p class="upcoming-period">Futur lointain</p>
+                <p>
+                  Une projection vers une mégalopole verticale, traversée de néons,
+                  de passerelles aériennes et de technologies avancées.
+                </p>
+              </div>
+            </article>
+
+            <article class="upcoming-card">
+              <div class="upcoming-image">
+                <img src="/assets/images/upcoming/rome-120.jpg" alt="Rome antique en 120 après J.-C." />
+              </div>
+
+              <div class="upcoming-content">
+                <span class="upcoming-tag">Analyse impériale</span>
+                <h3>Rome, 120 apr. J.-C.</h3>
+                <p class="upcoming-period">Empire romain</p>
+                <p>
+                  Une fenêtre vers Rome à son apogée, entre forums, temples, colonnes,
+                  marchés et puissance impériale.
+                </p>
+              </div>
+            </article>
+
+            <article class="upcoming-card">
+              <div class="upcoming-image">
+                <img src="/assets/images/upcoming/venise-1750.jpg" alt="Venise au XVIIIe siècle" />
+              </div>
+
+              <div class="upcoming-content">
+                <span class="upcoming-tag">Destination prestige</span>
+                <h3>Venise 1750</h3>
+                <p class="upcoming-period">Carnaval vénitien</p>
+                <p>
+                  Une traversée raffinée vers les canaux, les palais, les masques
+                  et l’élégance théâtrale du XVIIIe siècle.
+                </p>
+              </div>
+            </article>
+
+            <article class="upcoming-card">
+              <div class="upcoming-image">
+                <img src="/assets/images/upcoming/kyoto-edo.jpg" alt="Kyoto à l’époque Edo" />
+              </div>
+
+              <div class="upcoming-content">
+                <span class="upcoming-tag">Fenêtre culturelle</span>
+                <h3>Kyoto, époque Edo</h3>
+                <p class="upcoming-period">Japon traditionnel</p>
+                <p>
+                  Une immersion paisible entre temples, jardins, lanternes, ruelles de bois
+                  et atmosphère traditionnelle japonaise.
+                </p>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <!-- RECOMMANDATION PERSONNALISÉE -->
+        <section id="recommendation" class="section recommendation-section">
+          <p class="section-label">Conseil personnalisé</p>
+
+          <h2>Trouvez votre tunnel idéal</h2>
+
+          <p>
+            Répondez à quelques questions. Notre assistant analyse vos préférences et vous recommande
+            l’époque d’arrivée la plus adaptée à votre profil de voyageur temporel.
+          </p>
+
+          <form id="recommendation-form" class="recommendation-form">
+            <label for="experience">Quel type d’expérience recherchez-vous ?</label>
+            <select id="experience" name="experience" required>
+              <option value="">Choisir une réponse</option>
+              <option value="florence">Culturelle et artistique</option>
+              <option value="cretace">Aventure et nature</option>
+              <option value="paris">Élégance et raffinement</option>
+            </select>
+
+            <label for="period">Quelle période vous attire le plus ?</label>
+            <select id="period" name="period" required>
+              <option value="">Choisir une réponse</option>
+              <option value="paris">Histoire moderne</option>
+              <option value="cretace">Temps anciens et origines</option>
+              <option value="florence">Renaissance et classicisme</option>
+            </select>
+
+            <label for="environment">Vous préférez explorer :</label>
+            <select id="environment" name="environment" required>
+              <option value="">Choisir une réponse</option>
+              <option value="paris">Une ville animée</option>
+              <option value="cretace">Une nature sauvage</option>
+              <option value="florence">L’art et l’architecture</option>
+            </select>
+
+            <label for="activity">Votre activité idéale :</label>
+            <select id="activity" name="activity" required>
+              <option value="">Choisir une réponse</option>
+              <option value="paris">Visiter des monuments</option>
+              <option value="cretace">Observer la faune</option>
+              <option value="florence">Explorer des ateliers d’artistes</option>
+            </select>
+
+            <button type="submit" class="btn">
+              Obtenir ma recommandation
+            </button>
+          </form>
+
+          <div id="recommendation-result" class="recommendation-result">
+            <p>
+              Votre recommandation apparaîtra ici après le diagnostic temporel.
+            </p>
+          </div>
+        </section>
+
+        <!-- CHATBOT -->
+        <section id="chatbot" class="section chatbot-section">
+          <p class="section-label">Agent conversationnel</p>
+
+          <h2>Conseiller de navigation temporelle</h2>
+
+          <p>
+            Notre agent IA vous aide à choisir l’époque la plus adaptée, à comprendre les risques du transfert
+            et à préparer votre passage par trou de ver.
+          </p>
+
+          <div class="chatbot-box">
+            <div id="chat-messages" class="chat-messages">
+              <p class="bot-message">
+                Bonjour, je suis votre conseiller de navigation temporelle. Souhaitez-vous explorer Paris 1889,
+                le Crétacé ou Florence 1504 ?
+              </p>
+            </div>
+
+            <div class="chat-input-zone">
+              <input
+                type="text"
+                id="chat-input"
+                placeholder="Posez une question sur les tunnels spatio-temporels..."
+              />
+
+              <button id="chat-send" type="button">Envoyer</button>
+            </div>
+          </div>
+        </section>
+
+        <!-- RESERVATION -->
+        <section id="reservation" class="section reservation-section">
+          <p class="section-label">Planification</p>
+
+          <h2>Réserver un transfert temporel</h2>
+
+          <p>
+            Remplissez le formulaire pour planifier l’ouverture d’un tunnel spatio-temporel.
+            La validation est automatique côté navigateur.
+          </p>
+
+          <form id="reservation-form" class="reservation-form">
+            <label for="name">Nom</label>
+            <input type="text" id="name" name="name" placeholder="Votre nom" />
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="votre.email@example.com" />
+
+            <label for="destination">Destination temporelle</label>
+            <select id="destination" name="destination">
+              <option value="">Choisir une destination</option>
+              <option value="Paris 1889">Paris 1889</option>
+              <option value="Crétacé">Crétacé</option>
+              <option value="Florence 1504">Florence 1504</option>
+            </select>
+
+            <label for="date">Date de départ</label>
+            <input type="date" id="date" name="date" />
+
+            <label for="message">Préférences de voyage</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="4"
+              placeholder="Exemple : art, nature, architecture, aventure, faible risque..."
+            ></textarea>
+
+            <button type="submit" class="btn">Envoyer la demande</button>
+
+            <p id="form-message"></p>
+          </form>
+        </section>
+
+        <!-- FAQ -->
+        <section id="faq" class="section faq-section">
+          <p class="section-label">Questions fréquentes</p>
+
+          <h2>FAQ temporelle</h2>
+
+          <div class="faq-item">
+            <h3>Comment fonctionne le voyage par trou de ver ?</h3>
+
+            <p>
+              L’agence ouvre un tunnel spatio-temporel stabilisé entre notre époque et une période historique précise.
+              Le voyageur traverse le portail sous supervision, puis revient grâce à une balise de retour.
+            </p>
+          </div>
+
+          <div class="faq-item">
+            <h3>Peut-on modifier le passé ?</h3>
+
+            <p>
+              Non. Les transferts sont conçus pour limiter toute interaction dangereuse avec l’époque visitée.
+              Les voyageurs sont des observateurs accompagnés, pas des acteurs de l’Histoire.
+            </p>
+          </div>
+
+          <div class="faq-item">
+            <h3>Le tunnel spatio-temporel est-il dangereux ?</h3>
+
+            <p>
+              Chaque tunnel est stabilisé avant ouverture. Le niveau de risque dépend surtout de l’époque d’arrivée :
+              Paris 1889 est accessible, Florence 1504 est modérée, tandis que le Crétacé demande un encadrement renforcé.
+            </p>
+          </div>
+        </section>
+      </main>
+
+      <!-- FOOTER -->
+      <footer class="footer">
+        <p>© 2026 TimeTravel Agency — Voyage par trou de ver — Projet pédagogique</p>
+      </footer>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
